@@ -4,7 +4,7 @@
 
 ## Cloud Research
 
-- eventually want to use go ont he command line and through lambda, so started here.
+- eventually want to use go on the command line and through lambda, so started here.
 - started reading the [spec](https://golang.org/)
 - started playing with [examples](https://play.golang.org/)
 - picked up a [udemy course](https://www.udemy.com/course/learn-how-to-code)
