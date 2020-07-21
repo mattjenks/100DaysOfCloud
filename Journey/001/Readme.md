@@ -11,4 +11,4 @@
 
 ## Social Proof
 
-[Let's Go!](https://twitter.com/mejenks/status/1285674492006629381?s=20)
+[Let's Go!](https://twitter.com/mejenks/status/1285674492006629381)
