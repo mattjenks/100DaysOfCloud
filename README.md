@@ -17,7 +17,7 @@ We have provided a sample Day Journey entry staring at 0. You can delete this ex
 ## Matt's Cloud Journey
 
 ### About me
-CTO of [GigaTECH LLC](https://gigatech.net/). You can find us on [Github](https://github.com/GigaTech-net).
+CTO of [GigaTECH LLC](https://gigatech.net/). You can find us on [Github](https://github.com/GigaTech-net). Are you interested in joining us? See our [challenges](https://github.com/GigaTech-net/best-practices#join-us) and [openings](https://gigatech.net/job-openings/).
 
 I love dogs and train them in my spare time. Currently teaching a 9 month old Golden Retriever!
 Hanging out on the water can't be beat. You can come see me at [Lake Anna in Central VA](https://lakeanna.guide/)!
