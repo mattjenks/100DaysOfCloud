@@ -9,4 +9,4 @@
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[More Go!](link)
+[More Go!](https://twitter.com/mejenks/status/1285682032690044937)
