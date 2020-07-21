@@ -19,4 +19,4 @@
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[Hooking Lambda to Lex](link)
+[Hooking Lambda to Lex](https://twitter.com/mejenks/status/1285692826102136841?s=20)
