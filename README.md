@@ -14,27 +14,37 @@
 Fill in your details where you see this icon ✍️
 We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
-## [✍️ Your Name]'s Cloud Journey
+## Matt's Cloud Journey
 
-[✍️ Introduce yourself]
+### About me
+CTO of [GigaTECH LLC](https://gigatech.net/). You can find us on [Github](https://github.com/GigaTech-net).
 
-[✍️ Tell us why you started this challenge]
+I love dogs and train them in my spare time. Currently teaching a 9 month old Golden Retriever!
+Hanging out on the water can't be beat. You can come see me at [Lake Anna in Central VA](https://lakeanna.guide/)!
 
-[✍️ Tell us where you want to be at the end of the challenge]
+### This Challenge
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+A couple months ago, I helped form a new IT services company specializing in helping the US Government and especially the VA! We love our veterans! Thanks for your service!
+
+This company is young when it comes to tech infrastructure, processes and procedures. I am taking this challenge to bootstrap our technology offerings, automation and gain a better understanding of a wide range of cloud technologies and supporting technologies.
+
+### What's at the end?
+
+Certifications, maybe.  That may help win work. Where i'd really like to be is to have created an agile technology company that can pivot and shift as needed. To do this, we need a solid cloud infrastructure as well as great automation supporting our business and our clients! Delivering that in 100 days would be outstanding!
+
+- [@mejenks](https://twitter.com/mejenks)
+- [/in/matthewjenks](https://www.linkedin.com/in/matthewjenks)
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [](Journey/005/Readme.md)
-- [ ] ☁️ 6 > [](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [](Journey/008/Readme.md)
+- [ ] ☁️ 1 > [Let's GO!](Journey/001/Readme.md)
+- [ ] ☁️ 2 > [More GO!](Journey/002/Readme.md)
+- [ ] ☁️ 3 > [What's Lambda?](Journey/003/Readme.md)
+- [ ] ☁️ 4 > [Hooking Lambda to Lex](Journey/004/Readme.md)
+- [ ] ☁️ 5 > [Ugh, multiple computers, consistent dev environment](Journey/005/Readme.md)
+- [ ] ☁️ 6 > [Terraform](Journey/006/Readme.md)
+- [ ] ☁️ 7 > [Terraform Modules](Journey/007/Readme.md)
+- [ ] ☁️ 8 > [Terraform Basic User Security](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
