@@ -9,4 +9,4 @@
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[What's Lambda](link)
+[What's Lambda](https://twitter.com/mejenks/status/1285684488454967296?s=20)
