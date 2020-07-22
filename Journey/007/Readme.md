@@ -1,4 +1,4 @@
-![AWS Accounts](https://github.com/mattjenks/100DaysOfCloud/blob/master/GT_AWS_Accounts.png?raw=true)
+![AWS Accounts](https://github.com/mattjenks/100DaysOfCloud/blob/main/Journey/007/GT_AWS_Accounts.png?raw=true)
 
 # Terraform Modules
 
