@@ -105,14 +105,14 @@ and now access via:
 
 ## ☁️ Cloud Outcome
 
-✍️ I know have a consistent development setup no matter what laptop I am working on.
+I know have a consistent development setup no matter what laptop I am working on.
 
 ## Next Steps
 
-✍️ Use [IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) to put AWS setup in Github ... Hello [Terraform](https://www.terraform.io/)!
+Use [IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) to put AWS setup in Github ... Hello [Terraform](https://www.terraform.io/)!
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+Show that you shared your process on Twitter or LinkedIn
 
-[Consistent cloud dev environment](link)
+[Consistent cloud dev environment](https://twitter.com/mejenks/status/1285731463430799361?s=20)
