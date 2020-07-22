@@ -239,6 +239,4 @@ I made a couple of mistakes, so I had to iterate on the above terraform code (wh
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[twitter](https://twitter.com/mejenks/status/)
+[twitter](https://twitter.com/mejenks/status/1285995416346079235?s=20)
