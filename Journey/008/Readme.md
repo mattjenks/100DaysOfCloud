@@ -21,7 +21,10 @@
 - ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
 - 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
+Creating a landing zone
+
 - [OUs Best Practices](https://aws.amazon.com/blogs/mt/best-practices-for-organizational-units-with-aws-organizations/)
+- [Organizations Best Practices](https://aws.amazon.com/organizations/getting-started/best-practices/)
 
 ## Try yourself
 
