@@ -1,7 +1,6 @@
-**Add a cover photo like:**
 ![AWS Accounts](https://github.com/mattjenks/100DaysOfCloud/blob/master/GT_AWS_Accounts.png?raw=true)
 
-# New post title here
+# Terraform Modules
 
 ## Introduction
 
