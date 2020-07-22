@@ -1,5 +1,5 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![AWS Accounts](https://github.com/mattjenks/100DaysOfCloud/blob/master/GT_AWS_Accounts.png?raw=true)
 
 # New post title here
 
