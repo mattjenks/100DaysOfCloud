@@ -125,4 +125,4 @@ Using this infrastructure, start creating a chatbot.
 
 ## Social Proof
 
-[twitter](link)
+[twitter](https://twitter.com/mejenks/status/1290381072950272001)
