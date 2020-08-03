@@ -226,10 +226,9 @@ finally was able to tf init.
 performed a 'tf plan' and then a 'tf apply'.
 I made a couple of mistakes, so I had to iterate on the above terraform code (what I showed is final) as I created that user but locked them out. Turns out in the create user, I had specified a default value for path, so my resources in my policy were not correct. I created the user but was locked out and couldn't even self manage the account. I had to manually fix the user by logging in as the root user for the account. Once I fixed the path in my terraform code, I was good to go.
 
-
 ## ☁️ Cloud Outcome
 
-- I know of IaC terraform code in a corporate GH repo for creating the base account and locking down the admin user with a policy I will be able to generically apply.
+- I now have a  IaC terraform code in a corporate GH repo for creating the base account and locking down the admin user with a policy I will be able to generically apply.
 - Lesson learned
   - good to have the backup root account when iterating through IAM scenarios in case you lock yourself out.
 
