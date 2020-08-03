@@ -1,52 +1,129 @@
 **Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![AWS Accounts](https://github.com/mattjenks/100DaysOfCloud/blob/main/Journey/007/GT_AWS_Accounts.png?raw=true)
 
-# New post title here
+# Terraform - AWS Organizational Policies
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+I anticipate needing to know which account is costing what in the sense of dollars. Thus I need a way to know what resources are being using which cost center. I need a tag policy applied across my organization.
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- AWS Tags
+- AWS Tag Policies
 
 ## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- I should be able to create a tag policy compliance report
+- I should be able to see a cost report by tag
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- created a terraform module for adding a simple tag policy
 
-## Try yourself
+```terraform
+resource "aws_organizations_policy" "gt_default_tag_policy" {
+  description = "The GigaTECH default tag policy for tagging AWS resources"
+  name        = "gt_default_tag_policy"
+  type        = "TAG_POLICY"
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+  content = <<CONTENT
+{
+  "tags": {
+    "gt:costcenter": {
+      "tag_key": {
+        "@@assign": "gt:costcenter",
+        "@@operators_allowed_for_child_policies": ["@@none"]
+      },
+      "tag_value": {
+        "@@assign": [
+          "r and d",
+          "bd"
+        ]
+      }
+    },
+    "gt:createdby": {
+      "tag_key": {
+        "@@assign": "gt:createdby",
+        "@@operators_allowed_for_child_policies": ["@@none"]
+      },
+      "tag_value": {
+        "@@assign": [
+          "terraform",
+          "manual",
+          ""
+        ]
+      }
+    },
+    "gt:project": {
+      "tag_key": {
+        "@@assign": "gt:project",
+        "@@operators_allowed_for_child_policies": ["@@none"]
+      }
+    }
+  }
+}
+CONTENT
+}
 
-### Step 1 — Summary of Step
+# output the tag policy name and id
+output "policy_gt_default_tag_policy" {
+  description = "The GigaTECH default tag policy"
+  value = {
+    name = aws_organizations_policy.gt_default_tag_policy.name
+    id   = aws_organizations_policy.gt_default_tag_policy.id
+  }
+}
+```
 
-![Screenshot](https://via.placeholder.com/500x300)
+- applied the tag policy to my root org (which means all my OUs will inherit it)
 
-### Step 1 — Summary of Step
+```terraform
+locals {
+  common_tags = "${map(
+    "gt:costcenter", "${var.costcenter}"
+  )}"
+}
+module "tag_policies_core" {
+  source = "./modules/organizations-policies"
+  providers = {
+    aws = aws.GT-Core-Account
+  }
+  tags = local.common_tags
+}
 
-![Screenshot](https://via.placeholder.com/500x300)
+module "root" {
+  source = "./modules/organizations"
+  enabled_policy_types = [
+    "SERVICE_CONTROL_POLICY",
+    "TAG_POLICY"
+  ]
+  providers = {
+    aws = aws.GT-Core-Account
+  }
+  tags = local.common_tags
+  policies = [
+    "${module.tag_policies_core.policy_gt_default_tag_policy.id}"
+  ]
+  aws_service_access_principals = [
+    "tagpolicies.tag.amazonaws.com"
+  ]
+}
+```
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
+- Set tags to my local common tags as seen in the tags line in the terraform code above.
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- compliance report from AWS
+![AWS Accounts](https://github.com/mattjenks/100DaysOfCloud/blob/main/Journey/009/tags_compliance.png?raw=true)
+- Currently using AWS free tier, so nothing of real value to show by tag
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+Using this infrastructure, start creating a chatbot.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[twitter](link)
