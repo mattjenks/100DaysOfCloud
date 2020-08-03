@@ -44,8 +44,8 @@ Certifications, maybe.  That may help win work. Where i'd really like to be is t
 - [ ] ☁️ 5 > [Ugh, multiple computers, consistent dev environment](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [Terraform](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [Terraform Modules](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [Terraform Basic User Security](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
+- [ ] ☁️ 8 > [Terraform AWS Organizational structure](Journey/008/Readme.md)
+- [ ] ☁️ 9 > [Terraform AWS Organizational policies](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
 ## Walking down the road
