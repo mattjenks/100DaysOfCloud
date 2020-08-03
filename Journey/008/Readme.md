@@ -153,6 +153,5 @@ Add organization wide policies
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
 [twitter](https://twitter.com/mejenks/status/1290374059373535232?s=20)
