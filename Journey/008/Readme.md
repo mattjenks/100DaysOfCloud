@@ -155,4 +155,4 @@ Add organization wide policies
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[twitter](https://twitter.com/mejenks/status/1290374059373535232?s=20)
