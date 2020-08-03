@@ -125,5 +125,4 @@ Using this infrastructure, start creating a chatbot.
 
 ## Social Proof
 
-
 [twitter](link)
