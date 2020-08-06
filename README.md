@@ -46,7 +46,7 @@ Certifications, maybe.  That may help win work. Where i'd really like to be is t
 - [ ] ☁️ 7 > [Terraform Modules](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [Terraform AWS Organizational structure](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [Terraform AWS Organizational policies](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [ ] ☁️ 10 > [Terraform AWS cross account users](Journey/010/Readme.md)
 
 ## Walking down the road
 
