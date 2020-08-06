@@ -106,7 +106,7 @@ provider "aws" {
 
 ## ☁️ Cloud Outcome
 
-- I now had a user int he identity account that can assume the developer role in another account in my organization
+- I now have a user in the identity account that can assume the developer role in another account in my organization
 
 ## Next Steps
 
@@ -114,6 +114,4 @@ Using this infrastructure, start creating a chatbot.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[twitter](link)
+[twitter](https://twitter.com/mejenks/status/1291479015526629383?s=20)
