@@ -25,6 +25,4 @@ of key note...
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[twitter](link)
+[twitter](https://twitter.com/mejenks/status/1294278520085020673?s=20)
