@@ -139,8 +139,8 @@ unction opon() {
 }
 
 function opoff() {
-  op signout
   unset OP_SESSION_my
+  op signout
 }
 
 function opgp() {
