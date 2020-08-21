@@ -64,7 +64,6 @@ provider:
 
 - researched golang references
   - [AWS lex go](https://github.com/aws/aws-lambda-go/blob/master/events/lex.go)
-  - []()
 - created golang functions for three intents
   - Greetings
   - Help
@@ -91,6 +90,4 @@ The setup and basic bot interaction are working with my lambda functions fulfill
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[twitter](link)
+[twitter](https://twitter.com/mejenks/status/1296906724775952386?s=20)
