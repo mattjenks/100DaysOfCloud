@@ -55,7 +55,7 @@ Certifications, maybe.  That may help win work. Where i'd really like to be is t
 - [ ] ☁️ 13 > [AWS Serverless Tutorials](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [AWS Serverless Tutorials](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [AWS Serverless Tutorials](Journey/015/Readme.md)
-- [ ] ☁️ 16 > [](Journey/016/Readme.md)
+- [ ] ☁️ 16 > [Build a basic chatbot using aws lex, aws lambda, serverless and golang](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
